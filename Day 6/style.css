@@ -1,0 +1,83 @@
+p {
+  color: aquamarine;
+}
+
+p.para {
+  /* color: coral !important; not recommended */
+  color: coral;
+}
+
+.para {
+  color: coral;
+}
+
+#para {
+  color: palevioletred;
+}
+
+#para::after {
+  content: "🔥";
+}
+
+input::placeholder {
+  color: coral;
+}
+
+p::after {
+  content: "ℹ️";
+  border: 1px solid gray;
+  /* padding: 2px; */
+  box-sizing: border-box;
+  color: coral;
+  font-size: 12px;
+  margin: 2px;
+  padding: 3px 6px;
+}
+
+.box {
+  background-color: coral;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+
+.child {
+  background-color: royalblue;
+  box-sizing: border-box;
+}
+
+.parent,
+.child-box {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.parent {
+  padding: 20px;
+  background-color: coral;
+  position: relative;
+  /* left: 50px;
+  top: 50px; */
+}
+
+.child-box {
+  background-color: royalblue;
+  /* position: absolute;
+  top: 0px;
+  left: -50px; */
+  position: relative;
+  z-index: -1;
+}
+
+.display {
+  color: coral;
+  margin-top: 20px;
+}
+
+#move {
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  /* top: -500px; */
+}

@@ -1,0 +1,84 @@
+CSS specificity
+
+when multiple rules are being applied on the same element, which rule to apply.
+
+inline > id > class > element
+
+!important overrides any other rules
+
+rules with same specificity -> rule coming later in the stylesheet will be applied.
+
+element tag - 1pt
+class - 10pt
+id - 100pt 
+inline - 1000pt
+
+p.para - 11pt
+p#para - 101pt
+
+//box sizing
+
+//semantic HTML
+
+helps to make the page more accessible, helps to divide the document into more meaningful sections
+
+// html {scroll-behavior: smooth;}
+
+//made changes to the portfolio and added some semantic blocks into it.
+main, article, section, header - for adding internal navigation to a page, nav, footer
+
+
+//defining colors
+
+rgb(255,60,9) rgb(255 60 9)
+rgba(12,43,56, 0.6) rgb(12 43 56 / 0.6) 
+hsl
+hsla
+hex codes
+
+
+//pseudo classes
+define rule whenever state of an element changes - buttons, links
+
+//pseudo elements
+::after
+
+::before
+
+using content property of after and before.
+
+//pseudo elements for different elements
+
+//difference between outline and border
+
+
+//Position elements
+
+default is static or initial, which means element has not been positioned explicitly. appears
+acc. to the flow of the document
+
+relative - object will be positioned relative to the place where 
+it'll be originally rendered on the document
+
+absolute - object will positioned w.r.t the viewport.
+it'll be taken out of the normal. other elements will take its place and it'll be displayed 
+on top of other elements.
+
+fixed - fixes itself at place and moves according to the viewport.
+
+sticky - similar to fixed.
+
+fixed used in portfolio for the nav.
+
+parent and child relationship
+
+if a parent has relative position, child with absoulute position will be positioned 
+absolutely acc. to the parent boundaries.
+
+but if parent is not relative then the child will be placed acc. to the viewport.
+
+//z-index - changes the order of overlapping elements
+
+first the 0 level elements are rendered, then the positioned elements are rendered on top.
+
+

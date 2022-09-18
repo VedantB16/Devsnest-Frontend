@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,13 +14,38 @@ body {
   line-height: 1.5;
 }
 
-div#header {
+header {
+  padding: 16px;
+  background-color: rgb(23, 21, 21);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  border: 1px dashed white;
+  /* position: fixed; */
+  /* width: 100%; */
+}
+
+header nav > a {
+  margin: 1rem;
+  font-size: 1rem;
+  color: white;
+  padding: 5px;
+}
+
+header nav > a:hover {
+  text-decoration: underline;
+}
+header nav > a:visited {
+  color: white;
+}
+
+article#header {
   background-color: rgb(23, 21, 21);
   color: white;
   text-align: center;
 }
 
-div#header > img {
+article#header > img {
   border-radius: 50%;
   margin-top: 2rem;
   width: 400px;
@@ -74,4 +103,20 @@ form label {
 #contact textarea,
 #contact button {
   width: 100%;
+  padding: 10px;
+}
+
+section h2,
+section h4 {
+  text-align: center;
+}
+
+#contact-me {
+  margin-top: 1rem;
+}
+
+footer {
+  border-top: 3px solid black;
+  text-align: center;
+  font-size: 0.75rem;
 }

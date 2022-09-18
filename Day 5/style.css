@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.parent {
+  width: 400px;
+  height: 400px;
+  background-color: coral;
+  padding: 1rem;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: royalblue;
+  padding: 1rem;
+}
+
+.input {
+  margin: 1rem 0;
+}
+
+input:invalid {
+  outline: 1px solid coral;
+}
+
+input:valid {
+  outline: 1px solid lightgreen;
+}

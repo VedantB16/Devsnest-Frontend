@@ -1,0 +1,132 @@
+<!-- Netlify URL -->
+<!-- https://vedant-bhatnagar.netlify.app/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Vedant Bhatnagar's Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <header id="nav">
+        <nav aria-label="primary-navigation">
+          <a href="#aboutme">About me</a
+          ><a href="#qualifications">Qualifications</a
+          ><a href="#technologies">Technologies</a
+          ><a href="#contact-me">Connect with me</a>
+        </nav>
+      </header>
+
+      <article id="header">
+        <img
+          src="./assets/pexels-stefan-stefancik-91227.jpg"
+          width="300"
+          height="300"
+          alt="placeholder image"
+        />
+
+        <h2>Hi, I'm Vedant</h2>
+        <p id="text-effect">I am a <span id="dynamic"></span></p>
+
+        <a href="" target="_blank">
+          <img
+            src="https://www.iconpacks.net/icons/1/free-icon-linkedin-130.png"
+            alt=""
+          />
+        </a>
+        <a href="" target="_blank">
+          <img
+            src="https://www.iconpacks.net/icons/1/free-icon-twitter-135.png"
+            alt=""
+          />
+        </a>
+      </article>
+
+      <section id="about-me">
+        <h2 id="aboutme">About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+          asperiores in? Voluptatem eos dolorem dolorum numquam, voluptas
+          tempore nesciunt nihil asperiores ex ipsa ullam amet id? Hic voluptas
+          labore facilis.
+        </p>
+
+        <h4 id="qualifications">My Qualifications</h4>
+        <ol>
+          <li>B.Tech Computer Science from KIET Group of Instituitions</li>
+          <li>XI standard - CBSE - Modern School, Noida</li>
+        </ol>
+
+        <h4 id="technologies">Technologies</h4>
+
+        <table>
+          <tr>
+            <th>FrontEnd</th>
+            <th>BackEnd</th>
+            <th>Databases</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>NodeJS</td>
+            <td>MySQL</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Express</td>
+            <td>Mongo</td>
+          </tr>
+        </table>
+
+        <h4>My Hobbies</h4>
+        <ul>
+          <li>Playing Football</li>
+          <li>Listening to songs</li>
+        </ul>
+      </section>
+
+      <section id="contact-me">
+        <form
+          action=""
+          method="POST"
+          data-netlify="true"
+          name="contact"
+          id="contact"
+        >
+          <h1>Contact me</h1>
+          <section>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname" required />
+          </section>
+          <section>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" required />
+          </section>
+          <section>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </section>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <p><a href="#" style="font-size: 12px">Back to top 🔼</a></p>
+
+      <p><cite>Image taken from pexels.com</cite></p>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ by Vedant &copy;2022</p>
+    </footer>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>

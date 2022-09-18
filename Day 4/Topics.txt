@@ -1,0 +1,48 @@
+JS functions and DOM manipulation
+
+//Function to compare numbers - function compare(a,b){ code }
+
+//returning values from function
+
+//function expression syntax - storing a function in a variable
+
+const add = function addNumber(a,b){}
+add(9,10)
+
+//anonymous functions - storing unnamed functions in a variable
+
+//declaring func inside an object
+
+//coding convention in JS
+variables and method names are in camelCase - add, addNumber, addTwoNumbers
+use meaningful names
+
+//DOM - document object model
+
+//dom tree is created by the browser for the HTML elements with the help of parser
+
+each node is called dom node - All node properties
+each node is an object and  it contains all the styling info. for the element - CSS OM CSS objectmodel
+
+//API are func which are external
+using an interface we can implement the functions
+
+document interface is provided by the browser to access the dom tree - it is also an object
+
+window is another object which represents the whole tab in the browser
+
+
+
+//selecting elements in a document by different attributes
+
+document.getElementsByClassName
+document.getElementsById
+
+
+//create html elements programmatically
+
+using createElement 
+
+//more dom methods
+
+//changes made to portfolio, created a typewriter effect

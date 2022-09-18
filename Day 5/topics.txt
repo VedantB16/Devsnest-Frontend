@@ -1,0 +1,59 @@
+Event handling
+
+different types of event - click on a button, type through keyboard
+
+how to listen to an event and respond to an event
+
+1. how to add an event -> whenever an event happens an event object is 
+passed to the callback funtion present inside the event listener
+
+2. how to remove an event listener
+
+3. label for input tag and input tag
+
+4. keyboard event when pressing a key
+
+keydown -> keypress(actual registration happens in window) -> keyup
+
+event.preventDefault() // prevents the default behavior
+
+// we can add multiple events to a control in the document, focus and blur to an input field
+
+
+//event capturing phase
+parent event captured first then child then subchild
+
+//event bubbling
+event propagates from the subchild to the parent and the grandparent
+
+//event.stopPropagation() stops the event bubbling functionality
+
+default behaviour is event bubbling.
+
+//event to inject the js script only after all the elements are loaded and dom is created by the browser.
+otherwise we get an error. if we place our scripts in the head tag.
+document.addEventListener("DOMContentLoaded", function(){
+    //place your entire js code in here. 
+})
+
+//load event vs DOMContentLoaded event
+
+//form tag
+//submit data to a server
+//collect some user info
+//send data from client side to backend.
+
+//methods and action in form
+
+using event listeners to fetch details from the form fields
+
+adding breakpoints through the sources tab and watching the value of the elements
+
+//adding validity checks on values provided in the fields
+
+//adding custom messages for the user to point the error out while typping in the value itself.
+
+//learning netlify to host and deploy websites
+
+//adding form into your portfolio and receiving responses from the netlify website 
+or sending an email notification thru netlify
